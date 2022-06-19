@@ -18,7 +18,7 @@ section {
 	position: relative; 
 	background: orange;
 	border: 3px solid black;
-	margin: 12px;
+	margin-bottom: 20px;
 }
 .corner {
 	position: absolute;
@@ -27,13 +27,13 @@ section {
 	text-align: center;
 	margin: 0;
 }
-#food1 {
+#yellow {
 	background: lightyellow;
 }
-#food2 {
+#blue {
 	background: skyblue;
 }
-#food3 {
+#red {
 	background: red;
 }
 
@@ -70,3 +70,9 @@ section {
 		width: 100%;
 	}
 }
+
+
+
+/* I could not figure out how to include horizontal margin gaps between the sections.
+Any specefied margins interfered with the percentage-width sizes.
+I hope to figure that out when I view other people's work in peer-review. */
